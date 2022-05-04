@@ -1,0 +1,29 @@
+  
+  Список команд и примеры
+
+- help, ? - вывести список команд
+- cd, chdir - сменить директорию или диск
+  cd t: |  cd t:\tests\	
+- ls, list - вывести список директорий (и файлов)
+  ls (в текущей папке)  |  ls c: | ls c:\tests -p 2 (номер страницы)	
+- tr, tree - вывести дерево директорий (и файлов)
+  tr (в текущей папке)  |  tree c: | tree c:\tests -p 2 (номер страницы)
+- fl, files - вывести список файлов
+  fl (в текущей папке)  |  files c: | fl c:\tests -p 2 (номер страницы)	
+- finfo, fileinfo - информация о файле
+  finfo test.txt  |  fileinfo c:\test.txt	
+- showfiles - переключатель выводить файлы в командах? (ls, tree, cd) 
+- cp, copy - копировать файл или директорию
+  cp c:\source d:\target  |  copy c:\source.txt d:\target.txt
+  cp test.txt >> создать копию файла с именем test_n.txt	
+- rm, del - удалить файл или директорию
+  rm c:\source  |  rm c:\source.txt	
+- ren, rename - переименовать файл или директорию
+  ren c:\source c:\source2  |  rename c:\source.txt c:\source2.txt	
+- md, mkdir - создать директорию
+  md c:\source |  md source	
+- run, start - запустить файл
+  run notepad.exe  |  start explorer.exe	
+- exit, quit - выход и сохранение состояния
+
+  Все команды регистронезависимы.
