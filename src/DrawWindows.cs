@@ -75,6 +75,7 @@ namespace FileManager
             RefreshAll();
         }
 
+
         /// <summary>
         /// Заполнение данными главного окна в зависимости от его типа
         /// </summary>
@@ -220,12 +221,9 @@ namespace FileManager
         {
             Console.SetCursorPosition(0, DirWindowHeight + ConsoleWindowHeight);
 
-            for (int i = 38; i < WindowHeight; i++)
+            for (int i = DirWindowHeight + ConsoleWindowHeight; i < WindowHeight - 1; i++)
             {
-                for (int j = 0; j < WindowWidth; j++)
-                {
-                    Console.Write(" ");
-                }
+                Console.WriteLine("".PadLeft(WindowWidth-1));
             }
             Console.SetCursorPosition(0, DirWindowHeight + ConsoleWindowHeight);
         }

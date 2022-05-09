@@ -9,7 +9,7 @@
 - tr, tree - вывести дерево директорий (и файлов)
   tr (в текущей папке)  |  tree c: | tree c:\tests -p 2 (номер страницы)
 - fl, files - вывести список файлов
-  fl (в текущей папке)  |  files c: | fl c:\tests -p 2 (номер страницы)	
+  fl (в текущей папке)  |  files c: | fl c:\tests -p 2 (номер страницы)
 - finfo, fileinfo - информация о файле
   finfo test.txt  |  fileinfo c:\test.txt	
 - showfiles - переключатель выводить файлы в командах? (ls, tree, cd) 

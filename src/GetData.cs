@@ -41,7 +41,7 @@ namespace FileManager
                 }
                 else
                 {
-                    LogIt.CurrentLogError = $"GetData: Директорию не удалось сменить на <{value}>";
+                    if (value != "-p") LogIt.CurrentLogError = $"GetData: Директорию не удалось сменить на <{value}>";
                 }
 
                 Directory.SetCurrentDirectory(_directoryName);

@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\bin",
+    "\\bin\\Release",
+    "\\bin\\Release\\net5.0",
+    "\\src"
   ],
-  "SelectedNode": "\\E:\\GitHub\\FileMangerTest",
+  "SelectedNode": "\\src\\GetData.cs",
   "PreviewInSolutionExplorer": false
 }
